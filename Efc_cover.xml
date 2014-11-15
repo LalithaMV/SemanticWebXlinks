@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<devices xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<device> 
+<title xlink:type='extended' label="EFC_compatible_device" id="efc">
+<Freq xlink:type='locator' xlink:href="Samsung_note.html" xlink:label="Samsung_note">Samsung Galaxy Note II</Freq>
+</title>
+</device>
+
+</devices>
+
+

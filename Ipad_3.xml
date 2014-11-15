@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<accessories xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<accessory> 
+<title xlink:type='extended' label="Ipad3_accessory" id="ipad3">
+<Freq xlink:type='locator' xlink:href="Esme_cover.html" xlink:label="Esme_cover">Esme Cover</Freq>
+<Freq xlink:type='locator' xlink:href="Cooler_cover.html" xlink:label="Efc_cover">Cooler Cover</Freq>
+</title>
+</accessory>
+
+</accessories>
+
+

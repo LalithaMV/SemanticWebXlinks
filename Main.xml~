@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<devices xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<device> 
+<title xlink:type='simple' xlink:href="Samsung_note.html">Samsung Galaxy Note</title>
+</device>
+<device>
+<title xlink:type='simple' xlink:href="Ipad_3.html">Apple Ipad 3</title>
+</device>
+
+
+<accessories>
+<accessory>
+<title xlink:type='simple' xlink:href="Esme_cover.html">Esme Cover</title>
+</accessory>
+
+<accessory>
+<title xlink:type='simple' xlink:href="Efc_cover.html">EFC Cover</title>
+</accessory>
+
+<accessory>
+<title xlink:type='simple' xlink:href="Cooler_cover.html"></title>
+</accessory>
+</accessories>
+
+</devices>

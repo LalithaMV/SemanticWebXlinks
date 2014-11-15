@@ -1,0 +1,135 @@
+var dic = new buckets.MultiDictionary();
+
+function checkBucket()
+{
+	//alert("checkBucket");
+	key = dic.keys();
+	//alert(key);
+	for(var i = 0;i<key.length;i++)
+	{
+		//alert("inseide for");
+	//	alert(key[i]);
+		c = (dic.get(key[i]));
+		for(var j=0;j<c.length;j++)
+		{
+
+			d = (c[j].keys());
+	//		alert(d+":"+c[j].get(d[0]));
+		}
+	}
+}
+function getAttribute(idval,name)
+{
+	key=dic.keys();
+	c=dic.get(idval);
+	for(var j=0;j<c.length;j++)
+	{
+
+		d = (c[j].keys());
+		if(d[0]==name)
+			alert("From get function " +d+":"+c[j].get(d[0]));
+	}
+
+}
+function populateAttr(idval,name,val)
+{
+	var a = idval;
+	var b = new buckets.Dictionary();
+
+	b.set(name,val);
+	dic.set(a,b);
+	//alert(dic.values());
+	key = dic.keys();
+	for(var i = 0;i<key.length;i++)
+	{
+		//alert(key[i]);
+		c = (dic.get(key[i]));
+		for(var j=0;j<c.length;j++)
+		{
+			d = c[j];
+
+
+
+			//alert(d.values());
+
+		}
+	}
+	//alert(a);
+	//alert(name);
+	//alert(val);
+}
+
+function loadXMLDoc(dname)
+{
+if (window.XMLHttpRequest)
+  {
+  xhttp=new XMLHttpRequest();
+  }
+else
+  {
+  xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xhttp.open("GET",dname,false);
+xhttp.send("");
+return xhttp.responseXML;
+}
+
+function displayResult()
+{
+xml=loadXMLDoc("Main.xml");
+xsl=loadXMLDoc("Main.xsl");
+// code for IE
+if (window.ActiveXObject)
+  {
+  ex=xml.transformNode(xsl);
+  document.getElementById("example").innerHTML=ex;
+  }
+// code for Mozilla, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor=new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml,document);
+  document.getElementById("example").appendChild(resultDocument);
+  checkBucket();
+  }
+}
+function testClick(vari)
+{
+	Extended(vari);
+}
+function Simple(vari)
+{
+	/*var mydiv = document.getElementById("xslDiv");
+	alert(mydiv);
+	var aTag = document.createElement('a');
+	aTag.setAttribute('href',vari);
+	aTag.innerHTML = "link";
+	mydiv.appendChild(aTag);*/
+	window.open(vari);	
+}
+
+function Extended(vari)
+{
+	
+	//alert(vari)
+	var n=vari.split(",");
+	n.pop();
+	//alert(n.length);
+/*	for (var i=0;i<n.length;i++)
+	{
+		alert(n[i]);
+	}*/
+	//alert(n.length);
+	//var mydiv = document.getElementById("xslDiv");
+	//alert(mydiv);
+	//var aTag = document.createElement('a');
+	//aTag.setAttribute('href',n[0]);
+	//aTag.innerHTML = "ExtendLink";
+	//mydiv.appendChild(aTag);
+	for (var i=0;i<n.length;i++)
+	{
+		window.open(n[i]);
+	}
+		
+}

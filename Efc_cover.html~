@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript" src="buckets.js"></script>
+<script type="text/javascript" src="xlinks.js"></script>
+<!--<script type="text/javascript">checkBucket();</script>-->
+</head>
+<body color="FFCC99" onload="displayResult('Efc_cover.xml','Accessories.xsl')">
+<h1>EFC Cover</h1>
+<p>
+ Key Features of Samsung EFC-1G2NWECINU Book Cover for Samsung Galaxy Note 800 (White)<br></br>
+<ul>
+   <li> Polyurethane Material</li>
+    <li>Access to Buttons</li>
+    <li>Cutout Window</li>
+ <li>   Stand Enabled</li>
+</ul>
+</p>
+<h2>The Compatible Devices are :</h2>
+<div id="example" />
+</body>
+</html>

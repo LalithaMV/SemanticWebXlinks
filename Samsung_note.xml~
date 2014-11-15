@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<accessories xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<accessory> 
+<title xlink:type='extended' label="Samsung_accessory">
+<One><Freq xlink:type='locator' xlink:href="Esme_cover.html" xlink:label="Esme_cover">Esme Cover</Freq></One>
+<One><Freq xlink:type='locator' xlink:href="Efc_cover.html" xlink:label="Efc_cover">EFC Cover</Freq></One>
+</title>
+</accessory>
+
+</accessories>
+
+

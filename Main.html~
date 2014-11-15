@@ -1,0 +1,10 @@
+<html>
+<head>
+<script type="text/javascript" src="buckets.js"></script>
+<script type="text/javascript" src="xlinks.js"></script>
+<!--<script type="text/javascript">checkBucket();</script>-->
+</head>
+<body  bgcolor="yellow" onload="displayResult('Main.xml','Main.xsl')">
+<div id="example" />
+</body>
+</html>

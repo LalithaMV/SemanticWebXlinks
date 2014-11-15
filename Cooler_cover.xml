@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<devices xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<device> 
+<title xlink:type='extended' label="Cooler_compatible_device" id="cooler">
+<Freq xlink:type='locator' xlink:href="Ipad_3.html" xlink:label="IPad_3">IPad 3</Freq>
+</title>
+</device>
+
+</devices>
+
+
